@@ -1,0 +1,14 @@
+li {
+  list-style: none;
+  margin-left: 1em;
+  position: relative;
+}
+li::before {
+  content: ".";
+  position: absolute;
+  top: -0.25em;
+  left: -0.5em;
+}
+ul {
+  padding-left: 0;
+}
